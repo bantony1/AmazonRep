@@ -25,7 +25,7 @@ public class HomePage {
 	public void searchItem(String item){
 		textBox.sendKeys(item);
 		submit.click();
-		System.out.println("Clicked the Search button");
+		System.out.println("Clicked Search button");
 	}
 		
 }
